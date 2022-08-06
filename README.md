@@ -57,5 +57,5 @@ The main area of your drawing program is a canvas where users can draw shapes. U
 
 * <ins>**Rotate shapes:**</ins> the ability to grab a corner of a shape and rotate it in real-time.
 
-<img width="800" alt="截屏2022-08-06 下午5 44 35" src="https://user-images.githubusercontent.com/85118325/183267536-b82a8c50-94b7-4a7a-bc7c-17ea7bc77b0d.png">
+<img width="1000" alt="截屏2022-08-06 下午5 44 35" src="https://user-images.githubusercontent.com/85118325/183267536-b82a8c50-94b7-4a7a-bc7c-17ea7bc77b0d.png">
 
