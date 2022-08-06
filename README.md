@@ -1,7 +1,12 @@
 # Artist
-The main area of your drawing program is a canvas where users can draw shapes. Users can select a shape from the list on the side, specify colour, border thickness and style, then use their mouse to draw that shape on the canvas.
+>  This is a vector-drawing program in Kotlin/Java FX. Your program will allow a user to select shapes to draw, set their properties, and draw the shapes on-screen. This type of program would typically be used to draw simple diagrams.
 
-<h2>Techinique:</h2>
+
+<h2>1. Demo:</h2>
+ 
+ <img width="700" alt="截屏2022-08-06 下午5 44 35" src="https://user-images.githubusercontent.com/85118325/183267536-b82a8c50-94b7-4a7a-bc7c-17ea7bc77b0d.png">
+ 
+<h2>2. Techinique:</h2>
 
 1. Construct an interface using <ins>**Kotlin**</ins> and <ins>**Java FX**</ins> components and layouts.
 
@@ -9,7 +14,7 @@ The main area of your drawing program is a canvas where users can draw shapes. U
 
 3. Handle <ins>**mouse and keyboard interaction**</ins>, and implement standard interactive features.
 
-<h2>File:</h2>
+<h2>3. File:</h2>
 
 * <ins>**New:**</ins> create a new blank drawing (and prompt the user to save if the current drawing is unsaved).
 
@@ -21,7 +26,7 @@ The main area of your drawing program is a canvas where users can draw shapes. U
 
 * <ins>**About:**</ins>  display a dialog box with the application name, your name and WatID.
 
-* <h2>selection:</h2> 
+<h2>4. selection:</h2> 
 
 * <ins>**Selection tool:**</ins>  allows the user to select a shape that has been drawn. To select a shape, the user should click this tool, then click on an existing shape (resulting in some visual indication to the shape itself to indicate that its been selected). Pressing ESC on the keyboard (or clicking an empty part of the canvas) will clear shape selection. Selecting a shape will cause the colour palette, line thickness and style to update their state to reflect the currently selected shape, Changing colour, line thickness or line style when a shape is selected will update the shape to the new values.
 
@@ -43,7 +48,7 @@ The main area of your drawing program is a canvas where users can draw shapes. U
 
 * <ins>**Line style palette:**</ins> a graphical display of solid or dotted lines with at least least three choices. Selecting a line style will set the line style or border style for any new shapes that are drawn.
 
-<h2>Functions:</h2>
+<h2>5. Functions:</h2>
 
 * <ins>**Drawing:**</ins> The user draws a shape by selecting the appropriate tool, and clicking on the canvas where they want to start drawing it. The first click typicaly sets the upper-left corner starting position of the shape, and a “preview” is shown as the mouse is dragged. When the mouse button is released, that completes the shape (i.e. the drag operation sets the width of the circle, or creates a line, depending on the shape being drawn, and the shape is completed when the mouse button is released).
 
@@ -57,5 +62,5 @@ The main area of your drawing program is a canvas where users can draw shapes. U
 
 * <ins>**Rotate shapes:**</ins> the ability to grab a corner of a shape and rotate it in real-time.
 
-<img width="1000" alt="截屏2022-08-06 下午5 44 35" src="https://user-images.githubusercontent.com/85118325/183267536-b82a8c50-94b7-4a7a-bc7c-17ea7bc77b0d.png">
+
 
