@@ -1,10 +1,6 @@
 # Artist
 The main area of your drawing program is a canvas where users can draw shapes. Users can select a shape from the list on the side, specify colour, border thickness and style, then use their mouse to draw that shape on the canvas.
 
-Your drawing program will have the following layout and features:
-
-A menu bar containing the following menus and menu items:
-
 <h2>File:</h2>
 
 <ins>**New:**</ins> create a new blank drawing (and prompt the user to save if the current drawing is unsaved).
